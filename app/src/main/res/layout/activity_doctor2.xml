@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/doctorImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/doctor1"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/doctorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctorImage"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/doctorDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctorTitle"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/calender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Select Appointment Date "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="320dp"/>
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="#D0EADC"
+        android:text="0/0/0"
+        android:gravity="center"
+        android:textColor="#161918"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
